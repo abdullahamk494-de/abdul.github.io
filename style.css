@@ -1,0 +1,113 @@
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f7;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.university {
+    font-size: 32px;
+}
+
+.department {
+    font-size: 24px;
+}
+
+.page-title {
+    font-size: 20px;
+}
+
+/* Paragraphs */
+.welcome {
+    background-color: white;
+    padding: 15px;
+    border-left: 5px solid #003366;
+}
+
+.about {
+    color: #333333;
+    font-size: 16px;
+}
+
+.description {
+    color: #555555;
+}
+
+/* Section Headings */
+.section-title {
+    color: #003366;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 5px;
+}
+
+/* Hobbies List */
+.hobbies {
+    background-color: white;
+    padding: 20px 40px;
+    line-height: 30px;
+}
+
+/* Subjects List */
+.subjects {
+    background-color: white;
+    padding: 20px 40px;
+    line-height: 30px;
+}
+
+.web-subjects {
+    color: #0066cc;
+    margin-left: 20px;
+}
+
+/* Semester Result Table */
+.result-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    text-align: center;
+}
+
+.result-table th,
+.result-table td {
+    border: 1px solid black;
+    padding: 12px;
+}
+
+.result-table th {
+    background-color: #003366;
+    color: white;
+}
+
+/* Weekly Timetable */
+.timetable {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    text-align: center;
+}
+
+.timetable th,
+.timetable td {
+    border: 1px solid black;
+    padding: 12px;
+}
+
+.timetable th {
+    background-color: #006633;
+    color: white;
+}
+
+.timetable tr:nth-child(even) {
+    background-color: #e6f2ff;
+}
+
